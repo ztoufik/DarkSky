@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "DarkSky",
+  "version": "1.0",
+
+  "description": "Dark Theme for Bluesky platform",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
